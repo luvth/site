@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luvth :)</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            background-color: #161616;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-container {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+
+        .profile-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .profile-description {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        .github-link {
+            color: #f43e3e;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .github-link:hover {
+            color: #81c784;
+            text-decoration: underline;
+        }
+
+        .back-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .footer-message {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 0.9em;
+            color: rgba(255, 255, 255, 0.6);
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Retour</a>
+    <div class="profile-container">
+        <h1 class="profile-title">Who am i ? </h1>
+        <div class="profile-description">
+            <p>Just a random guys who loves linux and coding !</p>
+            
+            <p>U can find all my projects on github, randoms stuff, cool shit </p>
+            
+            <p>My 
+                <a href="https://github.com/luvth" target="_blank" class="github-link">github profile</a>
+            </p>
+        </div>
+    </div>
+    <div class="footer-message">
+        <p>Made with ❤️ by luvth</p>
+        <p>Open source code </p>
+    </div>
+</body>
+</html>
